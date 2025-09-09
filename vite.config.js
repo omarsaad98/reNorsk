@@ -56,14 +56,14 @@ export default defineConfig({
   ],
   build: {
     outDir: 'dist',
-    emptyOutDir: true
+    emptyOutDir: true,
   },
   server: {
     port: 5173,
     strictPort: true,
     hmr: {
-      port: 5173
-    }
-  }
+      port: 5173,
+    },
+  },
 })
 

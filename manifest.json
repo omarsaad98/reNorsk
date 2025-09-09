@@ -5,10 +5,14 @@
   "description": "Retter aktive nettside fra nynorsk til Norsk, for økt leseglede.",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "tabs",
+    "notifications"
   ],
   "host_permissions": [
-    "https://www.apertium.org/*"
+    "https://www.apertium.org/*",
+    "https://*/*",
+    "http://*/*"
   ],
   "background": {
     "service_worker": "src/background.js"
